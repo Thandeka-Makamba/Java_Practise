@@ -41,17 +41,11 @@ public class InventoryItem {
     InventoryItem(String name, int quantity, double price) {
         NAME = name;
 
-        if (quantity < 0) {
-            throw new IllegalArgumentException("Quantity must not be below 0");
-        } else {
-            this.quantity = quantity;
-        }
+        validateQuantity(quantity);
+        this.quantity = quantity;
 
-        if (price <= 0.0) {
-            throw new IllegalArgumentException("Price must be positive");
-        } else {
-            this.price = price;
-        }
+        validatePrice(price);
+        this.price = price;
     }
 
     public String getName() {
@@ -67,18 +61,24 @@ public class InventoryItem {
     }
 
     public void setQuantity(int quantity) {
-        if (quantity < 0) {
-            throw new IllegalArgumentException("Quantity must not be below 0");
-        } else {
-            this.quantity = quantity;
-        }
+        validateQuantity(quantity);
+        this.quantity = quantity;
     }
 
     public void setPrice(double price) {
+        validatePrice(price);
+        this.price = price;
+    }
+
+    private void validateQuantity(int quantity) {
+        if (quantity < 0) {
+            throw new IllegalArgumentException("Quantity must not be below 0");
+        }
+    }
+
+    private void validatePrice(double price) {
         if (price <= 0.0) {
             throw new IllegalArgumentException("Price must be positive");
-        } else {
-            this.price = price;
         }
     }
 
