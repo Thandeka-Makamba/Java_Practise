@@ -16,5 +16,16 @@ public class Main {
         for (Animal obj: animals) {
             obj.makeSound();
         }
+
+        //Question 3
+
+        for (Animal obj: animals) {
+            if (obj instanceof Dog) {
+                obj.makeSound();
+                ((Dog) obj).fetch();
+            } else {
+                obj.makeSound();
+            }
+        }
     }
 }
