@@ -1,0 +1,18 @@
+You are building a system for an online store. Create a class called Product with the following fields:
+
+name (String)
+
+price (double)
+
+Add appropriate getter and setter methods for these fields. Then, create a class called DiscountedProduct
+that extends Product. This subclass should have an additional field:
+
+discountPercentage (double)
+
+The DiscountedProduct class should have a method applyDiscount() that applies the discount to the price of the product.
+
+In the Main class, create a Product array that contains both regular products and discounted products. Loop through the
+array and print the name and price of each product. For DiscountedProduct, also print the discounted price.
+
+Ensure that all fields in both Product and DiscountedProduct are properly encapsulated (private) and accessed via getters
+and setters.
