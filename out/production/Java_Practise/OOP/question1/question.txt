@@ -1,0 +1,33 @@
+Create the following structure across multiple files:
+
+🔹 BankAccount class
+
+Private fields:
+
+String accountNumber
+
+double balance
+
+Public methods:
+
+Getters and setters for both fields.
+
+void deposit(double amount) – adds to balance only if amount > 0.
+
+🔹 SavingsAccount class
+Inherits from BankAccount.
+
+Adds a method:
+
+void addInterest(double rate) – increases balance by balance * rate.
+
+🔹 Main class
+Create a SavingsAccount object.
+
+Set its account number and balance.
+
+Deposit a valid amount.
+
+Apply interest.
+
+Print final balance.
