@@ -1,0 +1,17 @@
+Create a class Account with a method displayType() that prints "General account".
+Create two subclasses: SavingsAccount and CheckingAccount, each overriding displayType()
+with "Savings account" and "Checking account".
+
+In the Main class:
+
+Create an array of Account type and store different combinations of new SavingsAccount()
+and new CheckingAccount().
+
+Add a method printAccountType(Account account) that prints "Reference: Account, Object:
+[actual type]" and then calls displayType().
+
+Expected output:
+
+Reference: Account, Object: SavingsAccount
+Savings account
+...
