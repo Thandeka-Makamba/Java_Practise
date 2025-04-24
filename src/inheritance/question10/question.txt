@@ -1,0 +1,19 @@
+Create a class called Person with a method greet() that prints "Hello from Person".
+
+Then, create two subclasses: Student and Teacher.
+
+The Student class should override the greet() method to print "Hello from Student".
+
+The Teacher class should override the greet() method to print "Hello from Teacher".
+
+Now, in the Main class:
+
+Create an array of Person objects that contains both Student and Teacher objects.
+
+Loop through the array and call the greet() method on each.
+
+Use instanceof and casting to call a specific method for Teacher objects only. The
+Teacher class should have a teach() method that prints "Teaching students".
+
+Make sure that only Teacher objects invoke the teach() method. Student objects should
+not invoke this method, and their greet() method should be called instead
