@@ -1,0 +1,15 @@
+Create an abstract class called Shape that has:
+
+An abstract method double getArea()
+
+A concrete method void display() that prints "Calculating area..."
+
+Then, create a Circle class that:
+
+Inherits from Shape
+
+Has a field for radius
+
+Implements the getArea() method (use formula: π * radius * radius)
+
+In a Main class, create a Circle object, call display(), then call getArea() and print the result.
