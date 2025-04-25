@@ -1,0 +1,15 @@
+Create an abstract class called Animal with the following:
+
+An abstract method: makeSound()
+
+A regular method: sleep() that prints "Sleeping..."
+
+Then, create two subclasses:
+
+Dog – implements makeSound() to print "Woof!"
+
+Cat – implements makeSound() to print "Meow!"
+
+In your Main class:
+
+Create one object of each (Dog and Cat), call makeSound() and sleep() on each.
