@@ -1,0 +1,2 @@
+Create an interface Playable with a method play(). Then create two classes Guitar and Piano that implement Playable
+and override the play() method to print something appropriate.

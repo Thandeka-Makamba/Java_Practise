@@ -1,0 +1,7 @@
+1. Create a base class Vehicle:
+
+It should have private attributes: make (String), model (String), and year (int).
+Implement Encapsulation: Provide a constructor to initialize these attributes and public "getter" methods (getMake, getModel, getYear) for each. Do not provide setters; these details shouldn't change after creation.
+Include a public method displayInfo() that prints the make, model, and year.
+Include a public method startEngine() that prints a generic message like "Vehicle engine starts."
+
