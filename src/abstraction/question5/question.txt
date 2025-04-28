@@ -1,0 +1,23 @@
+Create an abstract class called Appliance with:
+
+an abstract method turnOn()
+
+a concrete method plugIn() that prints "Appliance is plugged in."
+
+Create an interface called EnergySaver with:
+
+a method saveEnergy()
+
+Create a class WashingMachine that:
+
+extends Appliance
+
+implements EnergySaver
+
+Implements all the required methods appropriately.
+
+Then, in your Main class:
+
+Create a WashingMachine object.
+
+Call plugIn(), turnOn(), and saveEnergy().
