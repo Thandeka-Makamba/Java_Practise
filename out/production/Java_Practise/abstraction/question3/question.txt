@@ -1,0 +1,9 @@
+Create an abstract class called Vehicle with:
+
+an abstract method move()
+
+a normal method startEngine() that prints "Engine started."
+
+Create a concrete class Car that extends Vehicle, implements move() by printing "Car is moving".
+
+In your Main class, create an object of Car, call startEngine() and move()
