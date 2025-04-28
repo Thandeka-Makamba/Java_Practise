@@ -1,0 +1,19 @@
+Create a program where:
+
+Define an interface called Playable with two methods:
+
+void play();
+
+void pause();
+
+Create a class called Video that implements the Playable interface.
+
+In the Video class:
+
+Implement the play() method to print "Playing video".
+
+Implement the pause() method to print "Pausing video".
+
+In the Main class:
+
+Create an object of Video and call both play() and pause() methods.
