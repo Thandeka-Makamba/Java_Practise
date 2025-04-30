@@ -1,0 +1,27 @@
+Create an abstract class Employee with:
+
+A private field name (String)
+
+A private field salary (double)
+
+Constructor to initialize both fields
+
+getName() and getSalary() methods
+
+An abstract method work()
+
+A concrete method displayInfo() that prints the name and salary
+
+Create two subclasses of Employee:
+
+Manager → implements work() and prints "Managing team"
+
+Developer → implements work() and prints "Writing code"
+
+In your Main class:
+
+Create one Manager and one Developer using Employee references (demonstrate polymorphism)
+
+Store them in an Employee[] array
+
+Use a loop to call displayInfo() and work() on each
