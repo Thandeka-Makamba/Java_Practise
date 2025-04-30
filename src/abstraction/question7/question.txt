@@ -1,0 +1,25 @@
+Create an abstract class Payment with:
+
+An abstract method processPayment(double amount)
+
+A concrete method printReceipt() that prints: "Printing receipt..."
+
+Create an interface Refundable with:
+
+A method refund(double amount)
+
+Create a class CreditCardPayment that:
+
+Extends Payment
+
+Implements Refundable
+
+In processPayment(double amount), print: "Processing credit card payment of R<amount>"
+
+In refund(double amount), print: "Refunding R<amount> to credit card"
+
+In a Main class:
+
+Create a CreditCardPayment object
+
+Call all necessary methods (processPayment, printReceipt, and refund)
