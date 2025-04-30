@@ -1,0 +1,23 @@
+Create a simple program with:
+
+An abstract class called Employee that has:
+
+an abstract method void work()
+
+a concrete method void report() that prints "Reporting to manager"
+
+An interface called BonusEligible with:
+
+one method: void receiveBonus()
+
+A class Developer that inherits from Employee and implements BonusEligible:
+
+Implements work() to print "Writing code"
+
+Implements receiveBonus() to print "Developer received bonus"
+
+In the Main class:
+
+Create a Developer object.
+
+Call report(), work(), and receiveBonus().
