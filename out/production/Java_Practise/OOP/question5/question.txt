@@ -1,0 +1,6 @@
+Create an abstract Animal class with a private field name, a constructor, and an abstract method makeSound().
+Then, create two subclasses: Dog and Cat. Both should override the makeSound() method.
+
+Add a displayInfo() method in the Animal class to display the animal’s name, and call this method in
+the main program. Finally, create a Main class where you create instances of Dog and Cat, store them in
+an array, and display their information and sound.
