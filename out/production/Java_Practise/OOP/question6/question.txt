@@ -1,0 +1,42 @@
+Create a simple banking system with the following requirements:
+
+1. Abstract Class: BankAccount
+Private fields:
+
+accountNumber (String)
+
+balance (double)
+
+Constructor to initialize both fields
+
+Getter methods for accountNumber and balance
+
+deposit(double amount) method that adds to balance
+
+Abstract method: withdraw(double amount)
+
+Method displayInfo() that prints account number and balance
+
+
+2. Subclasses:
+SavingsAccount:
+
+Implements withdraw(double amount) with a check that balance must not fall below R1000
+
+CheckingAccount:
+
+Implements withdraw(double amount) with no restrictions
+
+
+3. Interface: Taxable
+Method: void deductTax()
+
+SavingsAccount implements Taxable, and deducts 5% tax from current balance.
+
+
+4. Main Class
+Create one SavingsAccount and one CheckingAccount
+
+Perform deposits, withdrawals, and tax deductions (for savings)
+
+Use polymorphism where possible
