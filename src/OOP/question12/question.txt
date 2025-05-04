@@ -1,0 +1,17 @@
+Create a program that uses:
+
+An enum called Mood with values: HAPPY, SAD, ANGRY.
+
+An abstract class called Animal with:
+
+A private field mood of type Mood.
+
+A constructor to set the mood.
+
+A getter and setter for mood.
+
+An abstract method makeSound().
+
+Two subclasses: Dog and Cat that override makeSound() based on their current mood:
+
+For example, a HAPPY dog says "Woof! I'm happy!", and a SAD cat says "Meow... I'm sad."
