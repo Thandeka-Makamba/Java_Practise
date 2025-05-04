@@ -1,0 +1,14 @@
+
+
+You are given this enum of Level:
+
+public enum Level {
+    EASY, MEDIUM, HARD;
+}
+👉 Add a method called getDescription() inside the enum that returns:
+
+"Suitable for beginners" for EASY
+
+"Moderate difficulty" for MEDIUM
+
+"Challenging" for HARD

@@ -1,0 +1,16 @@
+Create an OOP design for a game where:
+
+There’s an abstract class called Game.
+
+It has a method start() and an abstract method getWelcomeMessage().
+
+Each specific game (e.g. PuzzleGame, ShootingGame) extends Game.
+
+Each game takes a Level (an enum: EASY, MEDIUM, HARD) as a parameter.
+
+The Level enum has a method getDescription().
+
+Your Task:
+Write the Level enum and the PuzzleGame class.
+PuzzleGame should override getWelcomeMessage() and return a message that
+includes the level's description (e.g., "Welcome to PuzzleGame. Difficulty: Suitable for beginners").

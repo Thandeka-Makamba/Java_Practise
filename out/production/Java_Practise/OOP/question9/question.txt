@@ -1,0 +1,9 @@
+Create an enum called TrafficLight with values: RED, YELLOW, and GREEN.
+
+Add a method called getDuration() that returns:
+
+60 for RED
+
+5 for YELLOW
+
+30 for GREEN
