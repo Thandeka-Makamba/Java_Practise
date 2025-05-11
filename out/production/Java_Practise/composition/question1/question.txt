@@ -1,0 +1,10 @@
+Create a Person class that has a Heart object. The Heart class has a method called beat() that prints "Heart is beating...".
+When we call live() on the Person object, it should use the Heart to beat.
+
+Requirements:
+
+Use composition to model that a person has a heart.
+
+When person.live() is called, it should print:
+
+Heart is beating...

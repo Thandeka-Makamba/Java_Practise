@@ -1,0 +1,17 @@
+Create a program using composition where a Car is composed of two components:
+
+An Engine class that has a method start()
+
+A Radio class that has a method playMusic()
+
+The Car class should:
+
+Contain both Engine and Radio as fields
+
+Have a method drive() that:
+
+Starts the engine
+
+Plays music
+
+Then in main(), create a Car object and call drive().

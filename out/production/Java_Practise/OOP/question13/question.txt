@@ -1,0 +1,44 @@
+🧠 OOP Challenge: Smart Home Device System
+
+📜 Problem Statement:
+Design a small smart home system in Java where there are different types of smart devices like a Light, Fan, and Speaker.
+All devices share some common behavior but also have their own unique features. Devices can be turned ON or OFF, and their
+mood/operation mode can affect how they behave.
+
+🧱 Requirements:
+Abstract Class:
+Create an abstract class SmartDevice that has:
+
+A String name (device name)
+
+A boolean isOn
+
+Getter and setter methods for name and isOn (encapsulation)
+
+A concrete method togglePower() that switches the device on or off.
+
+An abstract method operate() that defines how each device works when turned on.
+
+Interface:
+Create an interface MoodResponsive with a method:
+
+void respondToMood(Mood mood);
+
+Enum:
+Define an enum Mood with values: RELAXED, ENERGETIC, NEUTRAL.
+Add a method getDescription() that returns a message depending on the mood.
+
+Subclasses:
+
+Create Light, Fan, and Speaker classes that inherit from SmartDevice and implement MoodResponsive.
+
+Override operate() to show different behavior when the device is on.
+
+In respondToMood(), print a message showing how the device reacts to a certain mood (e.g., light dims when relaxed, speaker
+plays loud music when energetic, etc.).
+
+Main Program:
+
+In a main() method, create an array of different SmartDevices.
+
+Set a Mood, loop through the devices, toggle power on, and call both operate() and respondToMood() using polymorphism.
